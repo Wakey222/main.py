@@ -1,11 +1,12 @@
-name = Вейки
+def great(first_name, last_name):
+    print(f"Привет, {first_name} {last_name}, хорошего дня!")
+
+name = "Вейки"
+surname = "Вейкович"
+wish = "Хорошего дня"
+
 print("Имя", name)
-
-surname = Вейкович
 print("Фамилия", surname)
-
-wish = Хорошего дня
 print("Пожелание", wish)
 
-def great():
-    print("Hello Wakey, have good day!")
+great(name, surname)
